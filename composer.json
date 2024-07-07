@@ -1,0 +1,36 @@
+{
+  "name": "phpperftools/buggregator-collector",
+  "description": "Xhprof buggregator collector",
+  "minimum-stability": "stable",
+  "license": "Apache-2.0",
+  "config": {
+    "sort-packages": true
+  },
+  "require": {
+    "ext-xhprof": "*",
+    "ext-json": "*",
+    "http-interop/http-factory-guzzle": "^1.2",
+    "guzzlehttp/guzzle": "^7.8",
+    "psr/http-factory": "*",
+    "psr/http-client": "*"
+  },
+  "suggest": {
+    "psr/container": "*",
+    "guzzlehttp/psr7": "*",
+    "http-interop/http-factory-guzzle": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.6",
+    "roave/security-advisories": "dev-latest"
+  },
+  "autoload": {
+    "psr-4": {
+      "PhpPerfTools\\Buggregator\\": "src/PhpPerfTools/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "PhpPerfTools\\Tests\\": "tests/PhpPerfTools/"
+    }
+  }
+}
