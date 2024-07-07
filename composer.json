@@ -7,7 +7,6 @@
     "sort-packages": true
   },
   "require": {
-    "ext-xhprof": "*",
     "ext-json": "*",
     "http-interop/http-factory-guzzle": "^1.2",
     "guzzlehttp/guzzle": "^7.8",
@@ -15,6 +14,8 @@
     "psr/http-client": "*"
   },
   "suggest": {
+    "ext-xhprof": "*",
+    "ext-uprofiler": "*",
     "psr/container": "*",
     "guzzlehttp/psr7": "*",
     "http-interop/http-factory-guzzle": "*"
