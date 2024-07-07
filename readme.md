@@ -39,7 +39,7 @@ Collector::startAndRegisterShutdown(
 ```
 
 It will start profiling and register a shutdown function to submit profiles.
-If you want to manually submit profiles use `Collector::start`, assign instance to a variable and call `$collector->submit([], true);` like this:
+If you want to manually submit profiles use `Collector::start`, assign instance to a variable and call `$collector->submit(true);` like this:
 
 ```php
 <?php
